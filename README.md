@@ -19,18 +19,18 @@ I recently started learning & exploring [SIMD](https://en.wikipedia.org/wiki/Sin
 - [Scan HTML faster with SIMD instructions: Chrome edition](https://lemire.me/blog/2024/06/08/scan-html-faster-with-simd-instructions-chrome-edition/)
 
 
+### Code
+|**Repo**|**Comments**|**Related Presentation Links**|
+|:-----------------------------------------------|:-----------------------------------------------|:-----------------------------------------------|
+| [Intel® Hands-on SIMD Programming with C++](https://github.com/yuninxia/hands-on-simd-programming)| An example-driven guide to SIMD programming techniques. ||
+| [The Vector Class C++ Library](https://github.com/vectorclass) | by [Prof. Agner Fog](https://agner.org/optimize) | - [Agner Fog's VCL (Vector Class Library Installation and Overview)](https://www.youtube.com/watch?v=TKjYdLIMTrI), by Creel<br> - [Agner Fog's VCL 2: Performance Programming using Vector Class Library](https://www.youtube.com/watch?v=u6v_70opPsk), by Creel |
+| [C++ wrappers for SIMD intrinsics](https://github.com/xtensor-stack/xsimd) | Used by Apache Arrow, Mozilla Firefox etc.| |
+| [EVE - the Expressive Vector Engine](https://github.com/jfalcou/eve) | - by Joel Falcou, [Denis Yaroshevskiy](https://x.com/dyaroshev) et el.<br> - requires [C++20](https://en.wikipedia.org/wiki/C++20) | - [SIMD in C++20: EVE of a new Era - Joel Falcou & Denis Yaroshevskiy - CppCon 2021](https://www.youtube.com/watch?v=WZGNCPBMInI) |
+| [simdjson : Parsing gigabytes of JSON per second](https://github.com/simdjson/simdjson) | - by [Prof. Daniel Lemire](https://github.com/lemire) and others<br> - used by ClickHouse, Meta Velox, Node.js runtime etc. | - [Parsing JSON Really Quickly: Lessons Learned - Daniel Lemire](https://www.youtube.com/watch?v=wlvKAT7SZIQ), QCon San Francisco 2019 |
+
+
 ### Videos
-- [Agner Fog's VCL (Vector Class Library Installation and Overview)](https://www.youtube.com/watch?v=TKjYdLIMTrI), by Creel
-- [Agner Fog's VCL 2: Performance Programming using Vector Class Library](https://www.youtube.com/watch?v=u6v_70opPsk), by Creel
 - [SIMD Libraries in C++ - Jeff Garland - CppNow 2023](https://www.youtube.com/watch?v=hlgCeWC9jxI)
-- [Parsing JSON Really Quickly: Lessons Learned - Daniel Lemire](https://www.youtube.com/watch?v=wlvKAT7SZIQ), QCon San Francisco 2019
-
-
-### Code Repos
-- [Intel® Hands-on SIMD Programming with C++](https://github.com/yuninxia/hands-on-simd-programming)
-- [C++ wrappers for SIMD intrinsics](https://github.com/xtensor-stack/xsimd), used by Apache Arrow, Mozilla Firefox etc.
-- [The Vector Class C++ Library](https://github.com/vectorclass), by Prof. Agner Fog
-- [simdjson : Parsing gigabytes of JSON per second](https://github.com/simdjson/simdjson) by [Prof. Daniel Lemire](https://github.com/lemire) and others; used by ClickHouse, Meta Velox, Node.js runtime etc.
 
 
 ### Research Papers
